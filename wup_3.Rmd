@@ -28,12 +28,9 @@ basicCN <- ggplot(davisdata,aes(y=alcohol,x=Seat))
 basicCN + geom_boxplot()
 ```
   
-  
-### get fancy  
+On the boxplot for the people that sit in the back we can see that they drink more drinks per week. The top of the box hits at about 12.5 drinks per week that would be the 75th percentile of the back row. The front row shows they drink 2 drinks per week. The middle row drink 4 drinks per week. That plot supports the idea that the back row drinks more than anyone sitted anywhere else. 
 
-```{r}
-basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
-```
+
 
 ## Numerical Summarys 
 ```{r}
