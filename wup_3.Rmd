@@ -36,6 +36,10 @@ basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='e
 ```
 
 ## Numerical Summarys 
+```{r}
+favstats(alcohol~Seat,data=ucdavis1)
+```
+The people that sit in the back seat drink about 8.5 drinks per week. The people in the front seats drink about 1.78 drinks per week. The people in the middle seats drink about 3.33 drinks per week. We can see here that the people in the back drink the most and the people in the front drink the least. 
 
 ## Inferential Tests
 
