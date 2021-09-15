@@ -45,6 +45,11 @@ summary.aov(model1)
 ```
 The p value is at 0.000116. If the null hypothesis is true and the chances of getting the sample is very small so I reject the null hypothesis. 
 
+```{r}
+plot(TukeyHSD(model1))
+```
+
+There appears to be no difference between the middle and the back when we see 0 in the confidence interval however 0 is not in the confidence interval for the front- back and middle - back.
 
 ## Conclusions
 
