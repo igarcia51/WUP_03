@@ -53,4 +53,4 @@ There appears to be no difference between the middle and the back when we see 0 
 
 ## Conclusions
 
-
+The plots, numerical results, and the inferential results show us that there is a difference between the drinking in the back, middle and front row.The real difference is between the back and the other two rows.  
